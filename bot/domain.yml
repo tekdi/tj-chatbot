@@ -1,0 +1,55 @@
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - subscription
+  - subscription_expire
+  - more_than_one_site
+  - support_time
+  - doing_timepass
+
+responses:
+  utter_greet:
+  - text: "Hello, How could I help you ?"
+
+  utter_subscription:
+  - text: "The Subscriptions is a 'Support' & 'Upgrade' Subscriptions. You can get access to Downloads, Upgrades and Support as defined in our support scope during your active subscription period. You can use the product after the subscription expires but your access to downloads/upgrades and support will be discontinued."
+
+  utter_subscription_expire:
+  - text: "Not At all! You can keep using the extension for life! The subscription is only for Access to support, Downloads and upgrades."
+
+  utter_more_than_one_site:
+  - text: "Yes, your license allows you to use it on more than one domain but the support will be provided only for one domain /site. To get support for more than one domain/site you will have to buy another subscription. If you need support for multiple websites, you can also consider purchasing the unlimited domain support subscriptions."
+
+  utter_support_time:
+  - text: "Support is available in Business Hours on Weekdays (Monday to Friday) IST. If you add a ticket on Weekends, please allow till EOD, Monday for replies."
+
+  utter_not_supporting_yet:
+  - text: "I don't have answer for this at the momemnt, Can you get in touche at support@techjoomla.com"
+
+  utter_doing_timepass:
+  - text: "Nikal...Pahle fursat me nikal...."
+  
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
