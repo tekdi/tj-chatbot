@@ -1,16 +1,11 @@
 intents:
   - greet
   - goodbye
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
   - bot_challenge
   - subscription
   - subscription_expire
   - more_than_one_site
   - support_time
-  - doing_timepass
 
 responses:
   utter_greet:
@@ -31,24 +26,11 @@ responses:
   utter_not_supporting_yet:
   - text: "I don't have answer for this at the momemnt, Can you get in touche at support@techjoomla.com"
 
-  utter_doing_timepass:
-  - text: "Nikal...Pahle fursat me nikal...."
-  
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
-
-  utter_did_that_help:
-  - text: "Did that help you?"
-
-  utter_happy:
-  - text: "Great, carry on!"
-
   utter_goodbye:
   - text: "Bye"
 
   utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+  - text: "I am a bot, powered by Techjooml."
 
 session_config:
   session_expiration_time: 60

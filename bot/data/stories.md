@@ -11,28 +11,6 @@
   - utter_more_than_one_site
 * support_time
   - utter_support_time
-* not_supporting_yet
-  - utter_not_supporting_yet
-* doing_timepass
-  - utter_doing_timepass
-
-## sad path 1
-* greet
-  - utter_greet
-* mood_unhappy
-  - utter_cheer_up
-  - utter_did_that_help
-* affirm
-  - utter_happy
-
-## sad path 2
-* greet
-  - utter_greet
-* mood_unhappy
-  - utter_cheer_up
-  - utter_did_that_help
-* deny
-  - utter_goodbye
 
 ## say goodbye
 * goodbye
